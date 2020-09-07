@@ -1,0 +1,78 @@
+{
+    "metadata": [
+        {
+            "src": [
+                {
+                    "files": [
+                        "doc.csproj"
+                    ]
+                }
+            ],
+            "dest": "api",
+            "disableGitFeatures": false,
+            "disableDefaultFilter": false,
+            "filter": "filterConfig.yml"
+        }
+    ],
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "api/**.yml",
+                    "api/index.md"
+                ]
+            },
+            {
+				"files": [
+					"**/**.md",
+					"**.md",
+					"**/toc.yml",
+					"toc.yml",
+					"*.md"
+				]
+            }
+        ],
+        "resource": [
+            {
+                "files": [
+                    "images/**",
+                    "**.png",
+                    "**.jpg",
+                    "**.svg"
+                ]
+            }
+        ],
+        "overwrite": [
+            {
+                "files": [
+                    "apidoc/**.md"
+                ],
+                "exclude": [
+                    "obj/**",
+                    "_site/**"
+                ]
+            }
+        ],
+        "dest": "_site",
+        "globalMetadataFiles": [],
+        "globalMetadata": {
+            "_homepage": "http://mirror-networking.com",
+            "_appLogoPath": "logo.svg",
+            "_enableSearch": true
+        },
+        "fileMetadataFiles": [],
+        "template": [
+            "default",
+            "templates/material"
+        ],
+        "xrefService": [
+            "https://xref.docs.microsoft.com/query?uid={uid}"
+          ],
+        "postProcessors": [],
+        "markdownEngineName": "markdig",
+        "noLangKeyword": false,
+        "keepFileLink": false,
+        "cleanupCacheHistory": false,
+        "disableGitFeatures": false
+    }
+}

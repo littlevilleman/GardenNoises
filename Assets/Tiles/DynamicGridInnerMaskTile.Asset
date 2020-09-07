@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb8fddb5622a9540bf62e959606b4fc, type: 3}
+  m_Name: DynamicGridInnerMaskTile
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 4261736911840037227, guid: 0f1e2a51309fe8b49a76f1a0fe00af9c,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 1
+  m_ColliderType: 1
+  tileType: 2
+  m_Sprites:
+  - {fileID: 3871938016258771733, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -6276300143956557148, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: 5016242098183423016, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -648669970388467693, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: 5072592543860444474, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -4404381170290289946, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -1882717754708798886, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -4404381170290289946, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -5597831151193159018, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -8617880374211800388, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -4404381170290289946, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -4404381170290289946, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -8194248394075698736, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -4404381170290289946, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -4404381170290289946, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  - {fileID: -4404381170290289946, guid: 96ef8b952999c694ebe9e555ca6a8482, type: 3}
+  m_Preview: {fileID: 0}
+  borderTile: {fileID: 0}
