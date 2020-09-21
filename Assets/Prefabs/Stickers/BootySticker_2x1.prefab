@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4827933931579483029}
   - component: {fileID: 4827933931579483030}
   - component: {fileID: 4827933931579483031}
-  - component: {fileID: -2247212333422898527}
   m_Layer: 5
   m_Name: BootySticker_2x1
   m_TagString: Untagged
@@ -88,31 +87,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab7183f3f013a3f4da9f396693cab217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   stickerActor: {fileID: 8558479566851756078, guid: c2c7a934fb1fd0c4dbd4683b1a39d17c,
     type: 3}
   cellSize: {x: 2, y: 1, z: 0}
-  validSprite: {fileID: 0}
-  avaliableSprite: {fileID: 3415044017507853326, guid: 616f79da9fe55b3498a4bf6127f1d333,
+  initialSprite: {fileID: 3415044017507853326, guid: 616f79da9fe55b3498a4bf6127f1d333,
     type: 3}
-  enabledSprite: {fileID: 3415044017507853326, guid: 616f79da9fe55b3498a4bf6127f1d333,
+  draggingSprite: {fileID: 3415044017507853326, guid: 616f79da9fe55b3498a4bf6127f1d333,
     type: 3}
   inGame: 0
   isDragging: 0
---- !u!114 &-2247212333422898527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4827933931579483017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneId: 0
-  serverOnly: 0
-  m_AssetId: 20e8e552516d4714abaedfa9193ee3d6
-  hasSpawned: 0

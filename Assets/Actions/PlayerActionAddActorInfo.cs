@@ -12,5 +12,3 @@ public class PlayerActionAddActorInfo : PlayerActionInfo
 {
     public ArmyType armyType;    
 }
-
-

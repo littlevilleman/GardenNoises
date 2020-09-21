@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8299272124222903273}
   - component: {fileID: 8262709156255721300}
   - component: {fileID: 8415309150321613037}
+  - component: {fileID: -928007576339802645}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -118,9 +119,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  boxSize: {x: 1, y: 1, z: 0}
-  owner: {fileID: 0}
+  cellSize: {x: 0, y: 0, z: 0}
   visible: 0
+  inAction: 0
+  roundsLeft: 0
 --- !u!114 &8415309150321613037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,7 +135,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 1378467168
+  sceneId: 0
   serverOnly: 0
-  m_AssetId: 
+  m_AssetId: d781498e47e51ab4fb8d752c6eb68e6d
   hasSpawned: 0
+--- !u!114 &-928007576339802645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8299272124222903275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 1
+  animator: {fileID: 8299272124222903273}

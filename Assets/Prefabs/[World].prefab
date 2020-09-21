@@ -7949,7 +7949,6 @@ GameObject:
   - component: {fileID: 1392018087670719132}
   - component: {fileID: 7796510347984884523}
   - component: {fileID: 831742856430599831}
-  - component: {fileID: 7236631049591253172}
   m_Layer: 0
   m_Name: TM_Scrubs_Enemy
   m_TagString: Untagged
@@ -10583,25 +10582,6 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!95 &7236631049591253172
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2392297854688679035}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9a378e41e641b874b893fece9512c260, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2845598523976555720
 GameObject:
   m_ObjectHideFlags: 0
